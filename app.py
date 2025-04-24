@@ -198,3 +198,4 @@ def update_chart(gender, age, chart_type):
 
 # if __name__ == '__main__':
 #     app.run(debug=True)
+server = app.server

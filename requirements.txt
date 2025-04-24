@@ -1,7 +1,7 @@
+fastapi
+dash
+gunicorn
+scikit-learn
+plotly
 pandas
 numpy
-scikit-learn
-dash
-plotly
-fastapi
-uvicorn
