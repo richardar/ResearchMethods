@@ -196,5 +196,5 @@ def update_chart(gender, age, chart_type):
             dcc.Graph(figure=density_fig, config=config)
         ]
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
