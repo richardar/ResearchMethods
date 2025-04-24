@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 import numpy as np
 
 # === Load Data ===
-df = pd.read_csv(r"C:\Users\gratu\Notts\2\Research methods\cv2\Results_21Mar2022.csv")
+df = pd.read_csv(r"https://drive.google.com/uc?export=download&id=1XbbQg3cyd3XHk0AWepjC8QK4jc1IHP-b")
 
 # Use only relevant columns
 columns_to_use = [
