@@ -160,8 +160,6 @@ def update_chart(gender, age, chart_type):
     )
     density_fig.update_layout(title_x=0.5)
     
-    
-
     # Set config for high-quality rendering
     config = {
         'displayModeBar': True,
@@ -196,6 +194,4 @@ def update_chart(gender, age, chart_type):
             dcc.Graph(figure=density_fig, config=config)
         ]
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
 server = app.server
